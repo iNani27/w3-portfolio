@@ -6,11 +6,16 @@
                 <h4 class="w3-padding-0"><b>Isabelle</b>&nbsp;<span class="w3-animate-right"><b>NANI</b>&nbsp;</h4>
                 <p><span class="w3-animate-opacity w3-text-grey">Web Developer PHP SQL</span></p>
             </div>
-            <a href="#" class="w3-padding w3-text-teal">HOME</a> 
+            <a href="../w3/print/w3.css_resume.html" class="w3-padding">HOME</a> 
             <a href="#" class="w3-padding">ABOUT</a> 
-            <a href="#" class="w3-padding">PORTFOLIO</a> 
+            <a href="w3/index.php" class="w3-padding  w3-text-teal">PORTFOLIO</a>
             <a href="#" class="w3-padding">TUTO</a>
-            <a href="#" class="w3-padding">CONTACT</a>
+            <!-- Modal form contact - begin -->
+            <?php
+    include_once 'modal.php';
+    ?>  
+            <!-- Modal form contact - end -->
+            
 
             <div class="w3-section w3-padding-top w3-large">
                 <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
