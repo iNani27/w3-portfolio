@@ -1,7 +1,7 @@
 <?php
 include_once 'view/inc/meta.php';
 ?>
-
+</head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
     <?php
@@ -40,7 +40,7 @@ include_once 'view/inc/meta.php';
                         Technologie : Wordpress<br />
                         Dévelopement d'un modul rss
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> visiter</a></p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
@@ -106,7 +106,7 @@ include_once 'view/inc/meta.php';
                 <div class="w3-container w3-white">
                     <p><b>Tempus leo</b></p>
                     <p>Technologie : PHP SQL<br />
-                       Dévelopement d'une IA des liens par catégories</p>
+                        Dévelopement d'une IA des liens par catégories</p>
                     <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/php-site/links.php" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
@@ -135,7 +135,7 @@ include_once 'view/inc/meta.php';
                 <div class="w3-container w3-white">
                     <p><b>Bs creation</b></p>
                     <p>Technologie : Boostrap<br />
-                       App Bs lib 
+                        App Bs lib 
                     </p>
                     <p><a class="w3-btn w3-margin w3-right" href="http://localhost/Bs-INani/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
