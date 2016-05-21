@@ -2,9 +2,11 @@
         <footer class="w3-container w3-padding-32 w3-white">
             <div class="w3-row-padding">
                 <div class="w3-third">
-                    <h3>FOOTER</h3>
-                    <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                    <p>Powered by <a href="https://github.com/iNani27" target="_blank">iNani27</a></p>
+                    <h3>Disclamer</h3>
+                    <p>This website has been done as part of an implementation of acquired skills<br />
+                        Please keep in mind that all pictures are the property of their owners
+                        </p>
+                    <p>Development & Implementation by <a href="https://github.com/iNani27" target="_blank">iNani27</a></p>
                 </div>
 
                 <div class="w3-third">
@@ -26,7 +28,7 @@
                 <div class="w3-third">
                     
                      <!-- Skills - begin  -->
-                    <h3><i class="fa fa-code w3-xlarge w3-margin-right"></i>SKILLS</h3>
+                    <h3 id="skills"><i class="fa fa-code w3-xlarge w3-margin-right"></i>SKILLS</h3>
                           <p>
                             <span class="w3-tag w3-teal w3-margin-bottom">PHP
                             </span> 
