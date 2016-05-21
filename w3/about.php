@@ -1,7 +1,7 @@
 <?php
 include_once 'view/inc/meta.php';
 ?>
-
+</head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
     <?php
@@ -18,7 +18,7 @@ include_once 'view/inc/meta.php';
             <!-- <a href="../w3/print/w3.css_resume.html" class="w3-padding">HOME</a> -->
             <a href="about.php" class="w3-padding w3-text-teal">ABOUT</a> 
             <a href="index.php" class="w3-padding">PORTFOLIO</a>
-            <a href="#" class="btn disabled w3-padding">TUTO</a>
+            <a href="filter.php" class="btn disabled w3-padding">DEV</a>
         <!-- Modal form contact - begin -->
         <?php
         include_once 'view/inc/modal.php';
