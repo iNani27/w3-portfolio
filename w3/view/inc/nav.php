@@ -7,8 +7,8 @@
                 <p><span class="w3-animate-opacity w3-text-grey">Web Developer PHP SQL</span></p>
             </div>
             <a href="../w3/print/w3.css_resume.html" class="w3-padding">HOME</a> 
-            <a href="#" class="w3-padding">ABOUT</a> 
-            <a href="w3/index.php" class="w3-padding  w3-text-teal">PORTFOLIO</a>
+            <a href="about.php" class="w3-padding">ABOUT</a> 
+            <a href="w3/index.php" class="w3-padding w3-text-teal">PORTFOLIO</a>
             <a href="#" class="w3-padding">TUTO</a>
             <!-- Modal form contact - begin -->
             <?php

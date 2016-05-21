@@ -29,115 +29,129 @@ include_once 'view/inc/meta.php';
         </header>
 
         <!-- First Photo Grid-->
-          <div class="w3-row-padding">
+        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://localhost/wordpress/index.php/" target="_blank" title="Coming asap">
                     <img src="view/img/summer_style.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Curabitur eleifend nibh mi</b></p>
-                    <p>Aliquam in suscipit metus. Proin quis ante in mauris pharetra ornare. Donec varius tortor leo, eget pharetra enim laoreet vel. Proin malesuada nulla sed nisl egestas consectetur. Suspendisse venenatis nibh vitae mauris fringilla egestas. Phasellus sollicitudin ornare hendrerit. Suspendisse eget lectus ut lacus hendrerit venenatis sed quis tortor. Aenean tincidunt elit elit, non accumsan orci maximus quis.</p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Summer style</b></p>
+                    <p>
+                        Technologie : Wordpress<br />
+                        Dévelopement d'un modul rss
+                    </p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> visiter</a></p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" title="Coming asap">
                     <img src="view/img/ciel.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Web</b></p>
-                    <p>Aenean eleifend finibus nisl. </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Responsive Flat Design</b></p>
+                    <p>Technologie : HTML5<br />
+                        Intégration theme
+                    </p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site1/index.html" target="_blank" title="Coming asap">
                     <img src="view/img/bott.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Sed mollis mi et felis pulvinar,</b></p>
-                    <p>Sed semper neque molestie, eleifend eros nec, consequat nunc. Nam id mauris eu turpis euismod euismod eget quis sem. Morbi a dolor in purus iaculis viverra at vitae odio. Ut non posuere nulla, at lobortis libero. </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Bott</b></p>
+                    <p>Technologie : HTML5<br />
+                        Design cutting</p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site1/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
         </div>
 
-        
-      
+
+
 
 
         <!-- Second Photo Grid-->
-       <div class="w3-row-padding">
+        <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site2-audio/europe.html" target="_blank" title="Coming asap">
                     <img src="view/img/schuiten.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Id pellentesque odio</b></p>
-                    <p> Sed mollis mi et felis pulvinar, id venenatis ipsum efficitur. Aliquam molestie diam luctus, rutrum velit eget, accumsan diam. In quis scelerisque massa, condimentum tempus leo. Curabitur scelerisque laoreet dolor, eu ornare diam. Sed ut ullamcorper massa, id pellentesque odio.</p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>World music</b></p>
+                    <p>Technologie : HTML5 Audio<br />
+                        Carte clicable</p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site2-audio/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
-           
+
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" target="_blank">
+                <a href="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/actu.html" target="_blank">
                     <img src="view/img/prefo.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Site statique | pré-formation Web developer @<a target="_blank" href="http://www.cf2m.be/portfolio/web1/"><img width="11%" src="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/images/logo_cf2m_small_reflect.png" alt="CF2m"></a></b></p>
+                    <p><b>First site </b></p>
 
-                    <p>Malesuada nulla sit amet, finibus turpis. Pellentesque venenatis augue ipsum.</p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p>Site de validation du choix professionnel<br />
+                        Pré-formation Web developer @<a target="_blank" href="http://www.cf2m.be/portfolio/web1/"><img width="11%" src="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/images/logo_cf2m_small_reflect.png" alt="CF2m"></a></p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
-           
+
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/php-site/index.php" target="_blank" title="Coming asap">
                     <img src="view/img/monet.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
                     <p><b>Tempus leo</b></p>
-                    <p>Aenean scelerisque leo elit, vel blandit orci accumsan id. Suspendisse porttitor eu ipsum vitae vulputate. Suspendisse laoreet lacus eu convallis rhoncus. Nunc sed leo nunc.</p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p>Technologie : PHP SQL<br />
+                       Dévelopement d'une IA des liens par catégories</p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/php-site/links.php" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
-         
+
         </div>
 
         <!-- Third Photo Grid-->
-         <div class="w3-row-padding">
-                <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <a href="http://localhost/bootstrap_theinani/#section3" target="_blank" title="Coming asap">
                     <img src="view/img/interior.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Mauris tempus bibendum ante id venenatis</b></p>
-                    <p>Praesent quis nulla venenatis, porttitor ex at, porttitor nisl. Cras diam dolor, varius vitae consequat sit amet, ultrices sed mi. Etiam posuere auctor sodales. Maecenas quis pellentesque leo. Nam finibus elit quis nisi sodales sollicitudin. Curabitur elementum ac leo et dictum.  Nam et sollicitudin sapien. Aenean porta arcu mi, at dictum massa porta ac. Maecenas at felis ornare, malesuada nisl eu, vestibulum libero.</p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Parallax</b></p>
+                    <p>Technologie : Boostrap<br />
+                        Galerie image
+                    </p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/bootstrap_theinani/#section3" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
-         
+
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://localhost/Bs-INani/index.html" target="_blank" title="Coming asap">
                     <img src="view/img/bs.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>Nam orci leo</b></p>
-                    <p>Libero nibh, efficitur consequat orci faucibus, blandit venenatis mi. Maecenas at diam aliquam, </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Bs creation</b></p>
+                    <p>Technologie : Boostrap<br />
+                       App Bs lib 
+                    </p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/Bs-INani/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
-             
-               
+
+
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="#" title="Coming asap">
+                <a href="http://localhost/bootstrap_theinani/" target="_blank" title="Coming asap">
                     <img src="view/img/since.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
-                    <p><b>
-                        </b>Aliquam ac molestie nibh</p>
-                    <p>Pellentesque mollis sollicitudin ante et tincidunt. Vestibulum eleifend suscipit felis fermentum maximus.  </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="#" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> par ici</a></p>
+                    <p><b>Parallax</b></p>
+                    <p>Technologie : Boostrap<br />
+                        Integration theme
+                    </p>
+                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/bootstrap_theinani/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
         </div>
