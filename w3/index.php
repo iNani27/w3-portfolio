@@ -13,7 +13,9 @@ include_once 'view/inc/meta.php';
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px">
-
+        <span id="top" title="scrollToTop"></span>
+        
+        
         <!-- Header -->
         <header class="w3-container">
             <img src="view/img/isabelleNaniSqL.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity">
@@ -28,6 +30,16 @@ include_once 'view/inc/meta.php';
             </div>
         </header>
 
+
+        <!-- scrollToTop -->
+        <p>
+            <a href="index.php#top" id="scrollToTop" class="w3-btn-floating w3-ripple w3-teal w3-tiny w3-right"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </p>
+
+
+
+
+
         <!-- First Photo Grid-->
         <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
@@ -38,7 +50,7 @@ include_once 'view/inc/meta.php';
                     <p><b>Summer style</b></p>
                     <p>
                         Technologie : Wordpress<br />
-                        Dévelopement d'un modul rss
+                        Dévelopement d'un module rss
                     </p>
                     <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
@@ -94,7 +106,7 @@ include_once 'view/inc/meta.php';
                     <p><b>First site </b></p>
 
                     <p>Site de validation du choix professionnel<br />
-                        Pré-formation Web developer @<a target="_blank" href="http://www.cf2m.be/portfolio/web1/"><img width="11%" src="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/images/logo_cf2m_small_reflect.png" alt="CF2m"></a></p>
+                        Web developer @<a target="_blank" href="http://www.cf2m.be/portfolio/web1/"><img width="11%" src="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/images/logo_cf2m_small_reflect.png" alt="CF2m"></a></p>
                     <p><a class="w3-btn w3-margin w3-right" href="http://stagiaires.cf2m.be/web2015/isabelle/prefo2014/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                 </div>
             </div>
@@ -156,7 +168,7 @@ include_once 'view/inc/meta.php';
             </div>
         </div>
         <!-- Pagination -->
-        <div class="w3-center w3-padding-jumbo">
+      <!--  <div class="w3-center w3-padding-jumbo">
             <ul class="w3-pagination">
                 <li><a class="w3-black" href="#">1</a></li>
                 <li><a class="w3-hover-black" href="#">2</a></li>
@@ -165,7 +177,7 @@ include_once 'view/inc/meta.php';
                 <li><a class="w3-hover-black" href="#">»</a></li>
             </ul>
         </div>
-
+-->
         <!-- Footer - begin -->
         <?php
         include_once 'view/inc/footer.php';
