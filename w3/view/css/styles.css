@@ -18,3 +18,6 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-letter-spacing{ letter-spacing: 2px;}
 
 a#scrollToTop{position: fixed; right: 20px; bottom: 3px; z-index: 1;}
+
+/* Animate filter */
+ul{list-style-type: none;}
