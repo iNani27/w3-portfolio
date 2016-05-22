@@ -45,7 +45,7 @@ include_once 'view/inc/meta.php';
 
         <!-- Header -->
         <header class="w3-container">
-            <a href="#"><img src="img/isabelleNaniSqR.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <a href="#"><img src="view/img/isabelleNaniSqL.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
             <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
             <h1 class="w3-animate-opacity w3-font-3 w3-text-teal w3-lobster font-effect-brick-sign"><b>Looking for PHP SQL Web Dev ?</b></h1>
             <p>I'm a proactive team player, with eyes for details, and abilities to resolve technical issues, I’m willing to develop 
