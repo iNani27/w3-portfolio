@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="http://localhost/portfolio/app/vue/img/favicon.ico" />
+        <link rel="icon" href="view/img/favicon.ico" />
         <meta charset="utf-8" /> 
         <title>Isabelle NANI | Web Dev</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
 
         <script src="view/js/mz/modernizr.js"></script> <!-- Modernizr -->
 
-        <style>
+       <!-- <style>
             .btnxxlargeround{
                 margin-bottom: 10px;
                 padding: 1px 12px;
@@ -27,12 +27,13 @@
                 color: black;
             }
         </style>
-
+        -->
     </head>
     <body>
         <header>
             <h1>Animate Filter</h1>
-            <a href="index.php"><button class="btnxxlargeround"><h3> Back to IT NANI Web Dev &nbsp;<i class="fa fa-external-link"> </i></h3></button></a>
+            <a href="index.php">
+                <button class="w3-btn w3-hover-teal"> Back to IT NANI Web Dev &nbsp;<i class="fa fa-external-link"> </i></button></a>
         </header>
 
     <main class="cd-main-content">
@@ -53,9 +54,10 @@
         <section class="cd-gallery">
             <ul>
                 <li class="mix color-1"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://localhost/wordpress/index.php/" target="_blank" title="Coming asap">
+                        <a href="#" target="_blank" title="Coming soon">
                             <img src="view/img/summer_style.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
+                        <!--
                         <div class="w3-container w3-white">
                             <p><b>Summer style</b></p>
                             <p>
@@ -64,11 +66,13 @@
                             </p>
                             <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                         </div>
+                        -->
                     </div></li>
                 <li class="mix color-2"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" title="Coming asap">
+                        <a href="#" target="_blank" title="Coming soon">
                             <img src="view/img/ciel.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
+                        <!--
                         <div class="w3-container w3-white">
                             <p><b>Responsive Flat Design</b></p>
                             <p>Technologie : HTML5<br />
@@ -76,9 +80,11 @@
                             </p>
                             <p><a class="w3-btn w3-margin w3-right" href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
                         </div>
-                    </div></li>
+                    </div>
+                        -->
+                </li>
                 <li class="mix color-3"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site1/index.html" target="_blank" title="Coming asap">
+                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site1/index.html" target="_blank" title="Coming soon">
                             <img src="view/img/bott.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">
@@ -89,7 +95,7 @@
                         </div>
                     </div></li>
                 <li class="mix color-1"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site2-audio/europe.html" target="_blank" title="Coming asap">
+                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/html5-site2-audio/europe.html" target="_blank" title="Coming soon">
                             <img src="view/img/schuiten.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">
@@ -116,7 +122,7 @@
                         </div>
                     </div></li>
                 <li class="mix color-1"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/php-site/index.php" target="_blank" title="Coming asap">
+                        <a href="http://stagiaires.cf2m.be/web2015/isabelle/cf2m_2015/php-site/index.php" target="_blank" title="Coming soon">
                             <img src="view/img/monet.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">
@@ -127,7 +133,7 @@
                         </div>
                     </div></li>
                 <li class="mix color-2"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://localhost/bootstrap_theinani/#section3" target="_blank" title="Coming asap">
+                        <a href="http://localhost/bootstrap_theinani/#section3" target="_blank" title="Coming soon">
                             <img src="view/img/interior.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">
@@ -139,7 +145,7 @@
                         </div>
                     </div></li>
                 <li class="mix color-3"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://localhost/Bs-INani/index.html" target="_blank" title="Coming asap">
+                        <a href="http://localhost/Bs-INani/index.html" target="_blank" title="Coming soon">
                             <img src="view/img/bs.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">
@@ -152,7 +158,7 @@
                     </div></li>
 
                 <li class="mix color-2"><div class="w3-third w3-container w3-margin-bottom">
-                        <a href="http://localhost/bootstrap_theinani/" target="_blank" title="Coming asap">
+                        <a href="http://localhost/bootstrap_theinani/" target="_blank" title="Coming soon">
                             <img src="view/img/since.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                         </a>
                         <div class="w3-container w3-white">

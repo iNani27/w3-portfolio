@@ -14,8 +14,8 @@ include_once 'view/inc/meta.php';
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px">
         <span id="top" title="scrollToTop"></span>
-        
-        
+
+
         <!-- Header -->
         <header class="w3-container">
             <img src="view/img/isabelleNaniSqL.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity">
@@ -23,10 +23,10 @@ include_once 'view/inc/meta.php';
             <h1 class="w3-animate-opacity w3-font-3 w3-text-teal w3-lobster font-effect-brick-sign"><b>Mon portfolio</b></h1>
             <div class="w3-section w3-bottombar w3-padding-16">
                 <span>Catégories :  </span> 
-                <button class="w3-btn"> Aléatoire </button>
-                <button class="w3-btn w3-white"><i class="fa fa-code"></i>  Development </button>
-                <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-diamond"></i>  Design</button>
-                <button class="w3-btn w3-white w3-hide-small"><i class="fa fa-map-pin"></i>  Art</button>
+                <button class="w3-btn w3-disabled"> Aléatoire </button>
+                <button class="w3-btn w3-disabled w3-white"><i class="fa fa-code"></i>  Development </button>
+                <button class="w3-btn w3-disabled w3-white w3-hide-small"><i class="fa fa-diamond"></i>  Design</button>
+                <button class="w3-btn w3-disabled w3-white w3-hide-small"><i class="fa fa-map-pin"></i>  Art</button>
             </div>
         </header>
 
@@ -43,7 +43,7 @@ include_once 'view/inc/meta.php';
         <!-- First Photo Grid-->
         <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="http://localhost/wordpress/index.php/" target="_blank" title="Coming asap">
+                <a class="w3-btn w3-disabled" href="http://localhost/wordpress/index.php/" target="_blank" title="Coming soon">
                     <img src="view/img/summer_style.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
@@ -52,11 +52,11 @@ include_once 'view/inc/meta.php';
                         Technologie : Wordpress<br />
                         Dévelopement d'un module rss
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
+                    <p><a class="w3-btn w3-disabled w3-margin w3-right" href="http://localhost/wordpress/index.php/page-d-exemple/rss-favorite-feeds/" target="_blank" alt="Comming soon"><i class="w3-tiny fa fa-ellipsis-h"> </i> <em>Comming Soon</em></a></p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" title="Coming asap">
+                <a class="w3-btn w3-disabled" href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" title="Coming soon">
                     <img src="view/img/ciel.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
@@ -64,7 +64,7 @@ include_once 'view/inc/meta.php';
                     <p>Technologie : HTML5<br />
                         Intégration theme
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
+                    <p><a class="w3-btn w3-disabled w3-margin w3-right" href="http://localhost/WWamp150502/php/Resp-flat/apps/html5up-tessellate/" target="_blank" alt="Coming soon"><i class="w3-tiny fa fa-ellipsis-h"> </i> <em>Comming Soon</em></a></p>
                 </div>
             </div>
             <div class="w3-third w3-container w3-margin-bottom">
@@ -128,7 +128,7 @@ include_once 'view/inc/meta.php';
         <!-- Third Photo Grid-->
         <div class="w3-row-padding">
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="http://localhost/bootstrap_theinani/#section3" target="_blank" title="Coming asap">
+                <a class="w3-btn w3-disabled" href="http://localhost/bootstrap_theinani/#section3" target="_blank" title="Coming soon">
                     <img src="view/img/interior.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
@@ -136,12 +136,12 @@ include_once 'view/inc/meta.php';
                     <p>Technologie : Boostrap<br />
                         Galerie image
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/bootstrap_theinani/#section3" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
+                    <p><a class="w3-btn w3-disabled w3-margin w3-right" href="http://localhost/bootstrap_theinani/#section3" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> <em>Comming Soon</em></a></p>
                 </div>
             </div>
 
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="http://localhost/Bs-INani/index.html" target="_blank" title="Coming asap">
+                <a class="w3-btn w3-disabled" href="http://localhost/Bs-INani/index.html" target="_blank" title="Coming soon">
                     <img src="view/img/bs.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
@@ -149,13 +149,13 @@ include_once 'view/inc/meta.php';
                     <p>Technologie : Boostrap<br />
                         App Bs lib 
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/Bs-INani/index.html" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
+                    <p><a class="w3-btn w3-disabled w3-margin w3-right" href="http://localhost/Bs-INani/index.html" target="_blank" alt="Coming soon"><i class="w3-tiny fa fa-ellipsis-h"> </i> <em>Comming Soon</em></a></p>
                 </div>
             </div>
 
 
             <div class="w3-third w3-container w3-margin-bottom">
-                <a href="http://localhost/bootstrap_theinani/" target="_blank" title="Coming asap">
+                <a class="w3-btn w3-disabled" href="http://localhost/bootstrap_theinani/" target="_blank" title="Coming soon">
                     <img src="view/img/since.JPG" alt="Site statique" style="width:100%" class="w3-hover-opacity">
                 </a>
                 <div class="w3-container w3-white">
@@ -163,21 +163,21 @@ include_once 'view/inc/meta.php';
                     <p>Technologie : Boostrap<br />
                         Integration theme
                     </p>
-                    <p><a class="w3-btn w3-margin w3-right" href="http://localhost/bootstrap_theinani/" target="_blank" alt="Bientôt"><i class="w3-tiny fa fa-ellipsis-h"> </i> Visiter</a></p>
+                    <p><a class="w3-btn w3-disabled w3-margin w3-right" href="http://localhost/bootstrap_theinani/" target="_blank" alt="Coming soon"><i class="w3-tiny fa fa-ellipsis-h"> </i> <em>Comming Soon</em></a></p>
                 </div>
             </div>
         </div>
         <!-- Pagination -->
-      <!--  <div class="w3-center w3-padding-jumbo">
-            <ul class="w3-pagination">
-                <li><a class="w3-black" href="#">1</a></li>
-                <li><a class="w3-hover-black" href="#">2</a></li>
-                <li><a class="w3-hover-black" href="#">3</a></li>
-                <li><a class="w3-hover-black" href="#">4</a></li>
-                <li><a class="w3-hover-black" href="#">»</a></li>
-            </ul>
-        </div>
--->
+        <!--  <div class="w3-center w3-padding-jumbo">
+              <ul class="w3-pagination">
+                  <li><a class="w3-black" href="#">1</a></li>
+                  <li><a class="w3-hover-black" href="#">2</a></li>
+                  <li><a class="w3-hover-black" href="#">3</a></li>
+                  <li><a class="w3-hover-black" href="#">4</a></li>
+                  <li><a class="w3-hover-black" href="#">»</a></li>
+              </ul>
+          </div>
+        -->
         <!-- Footer - begin -->
         <?php
         include_once 'view/inc/footer.php';

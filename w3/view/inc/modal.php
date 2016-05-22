@@ -1,18 +1,17 @@
 <?php
-if (isset($_POST['letitre'])) {
-    $nom = strip_tags(trim($_POST['nom']));
-    $prenom = strip_tags(trim($_POST['prenom']));
-    $name = $nom . ' ' . $prenom;
-    $mail = strip_tags(trim($_POST['email']));
-    $letitre = strip_tags(trim($_POST['letitre']));
-    $lemessage = strip_tags(trim($_POST['lemessage']));
-    $mailwebdvlpr = "webdeveloperinani@gmail.com";
-    $entete = 'From: ' . $mail . "\r\n" . 'Reply-To: ' . $mail . "\r\n" . 'X-mailer: PHP/' . phpversion();
-    mail($mailwebdvlpr, $letitre, $lemessage, $entete, $name);
-
-
-    $affiche = '<h2 style="color:darkcyan;">Message bien envoy&eacute;, merci</h2>';
-}
+/* if (isset($_POST['letitre'])) {
+  $nom = strip_tags(trim($_POST['nom']));
+  $prenom = strip_tags(trim($_POST['prenom']));
+  $name = $nom . ' ' . $prenom;
+  $mail = strip_tags(trim($_POST['email']));
+  $letitre = strip_tags(trim($_POST['letitre']));
+  $lemessage = strip_tags(trim($_POST['lemessage']));
+  $mailwebdvlpr = "webinani@gmail.com";
+  $entete = 'From: ' . $mail . "\r\n" . 'Reply-To: ' . $mail . "\r\n" . 'X-mailer: PHP/' . phpversion();
+  mail($mailwebdvlpr, $letitre, $lemessage, $entete, $name);
+ * 
+  $affiche = '<h2 style="color:darkcyan;">Message bien envoy&eacute;, merci</h2>';
+  } */
 ?>
 
 <!-- Modal form contact -->
@@ -48,7 +47,7 @@ if (isset($_POST['letitre'])) {
                     <p></p>
                     <textarea class="w3-input" style="width:100%;" name="lemessage" placeholder="Votre message" required></textarea><label class="w3-label w3-validate w3-tiny" for="lemessage"> Message</label>
 
-                    <p><input class="w3-btn w3-teal" style="width:100%;" type="submit" value="Envoyer"></p>
+                    <p><input class="w3-btn w3-teal" style="width:100%;" type="submit" value="Envoyer" disabled></p>
 
                 </form>
             </div>
