@@ -5,35 +5,8 @@ include_once 'view/inc/meta.php';
 <body class="w3-light-grey w3-content" style="max-width:1600px">
 
     <?php
-    /* include_once 'view/inc/nav.php'; */
+    include_once 'view/inc/nav.php';
     ?>       
-    <!-- Sidenav/menu -->
-    <nav class="w3-sidenav w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;"><br>
-        <div class="w3-container">
-            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding-large" title="close menu">×</a>
-            <img src="view/img/isabelleNaniSqR.png" style="width:43%;" class="w3-round"><br><br>
-            <h4 class="w3-padding-0"><b>Isabelle</b>&nbsp;<span class="w3-animate-right"><b>NANI</b>&nbsp;</h4>
-            <p><span class="w3-animate-opacity w3-text-grey">Web Developer PHP SQL</span></p>
-        </div>
-            <!-- <a href="../w3/print/w3.css_resume.html" class="w3-padding">HOME</a> -->
-            <a href="about.php" class="w3-padding w3-text-teal">ABOUT</a> 
-            <a href="index.php" class="w3-padding">PORTFOLIO</a>
-            <a href="filter.php" class="btn disabled w3-padding">DEV</a>
-        <!-- Modal form contact - begin -->
-        <?php
-        include_once 'view/inc/modal.php';
-        ?>  
-        <!-- Modal form contact - end -->
-
-
-        <div class="w3-section w3-padding-top w3-large">
-            <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-facebook-official"></i></a>
-            <a href="#" class="w3-hover-white w3-hover-text-red w3-show-inline-block"><i class="fa fa-pinterest-p"></i></a>
-            <a href="#" class="w3-hover-white w3-hover-text-light-blue w3-show-inline-block"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="w3-hover-white w3-hover-text-grey w3-show-inline-block"><i class="fa fa-flickr"></i></a>
-            <a href="#" class="w3-hover-white w3-hover-text-indigo w3-show-inline-block"><i class="fa fa-linkedin"></i></a>
-        </div>
-    </nav>
 
 
     <!-- Overlay effect when opening sidenav on small screens -->
@@ -41,11 +14,12 @@ include_once 'view/inc/meta.php';
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px">
-
+        <span id="top" title="scrollToTop"></span>
 
         <!-- Header -->
         <header class="w3-container">
             <a href="#"><img src="view/img/isabelleNaniSqL.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span id="top" title="scrollToTop"></span>
             <span class="w3-opennav w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
             <h1 class="w3-animate-opacity w3-font-3 w3-text-teal w3-lobster font-effect-brick-sign"><b>Looking for PHP SQL Web Dev ?</b></h1>
             <p>I'm a proactive team player, with eyes for details, and abilities to resolve technical issues, I’m willing to develop 
@@ -53,12 +27,17 @@ include_once 'view/inc/meta.php';
             </p>
             <div class="w3-section w3-bottombar w3-padding-16">
 
-                <a href="#work"><button class="w3-btn"> Work </button></a>
+                <a href="about.php#work"><button class="w3-btn"> Work </button></a>
 
-                <a href="#educ"><button class="w3-btn"> Education</button></a>
-                <a href="#skills"><button class="w3-btn"> Skills</button></a>
+                <a href="about.php#educ"><button class="w3-btn"> Education</button></a>
+                <a href="about.php#skills"><button class="w3-btn"> Skills</button></a>
             </div>
         </header>
+
+        <!-- scrollToTop -->
+        <p>
+            <a href="#top" id="scrollToTop" class="w3-btn-floating w3-ripple w3-teal w3-tiny w3-right"> <i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </p>
 
         <!-- Work -->
         <div class="w3-container w3-margin-bottom">
@@ -177,6 +156,13 @@ include_once 'view/inc/meta.php';
                 <div class="w3-container w3-white">
                     <h2><a id="educ"></a>EDUCATION</h2>
                     <div class="w3-row">
+                        <div class="w3-col w3-container" style="width:20%"><p><b>2016</b></p>
+                        </div>
+                        <div class="w3-rest w3-container">
+                            <p>Dutch improvment - CVO Lethas (Brussels)</p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
                         <div class="w3-col w3-container" style="width:20%"><p><b>2014-2015</b></p>
                         </div>
                         <div class="w3-rest w3-container">
@@ -216,6 +202,8 @@ include_once 'view/inc/meta.php';
             </div>
         </div>
 
+
+
         <!-- Footer - begin -->
         <?php
         include_once 'view/inc/footer.php';
@@ -226,16 +214,16 @@ include_once 'view/inc/meta.php';
     </div>
 
     <script>
-                // Script to open and close sidenav
-                function w3_open() {
-                    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
-                    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
-                }
+        // Script to open and close sidenav
+        function w3_open() {
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+            document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+        }
 
-                function w3_close() {
-                    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
-                    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
-                }
+        function w3_close() {
+            document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+            document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+        }
     </script>
 
 </body>
