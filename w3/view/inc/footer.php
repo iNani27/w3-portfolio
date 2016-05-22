@@ -13,7 +13,7 @@
                     <h3>BLOG POSTS</h3>
                     <ul class="w3-ul w3-hoverable">
                         <li class="w3-padding-16">
-                            <img src="http://localhost/portfolio/app/vue/img/favicon.ico" class="w3-left w3-margin-right" style="width:50px">
+                            <img src="view/img/favicon.ico" class="w3-left w3-margin-right" style="width:50px">
                             <span class="w3-large">it-nani</span><br>
                             <span>Sed mattis nunc</span>
                         </li>
