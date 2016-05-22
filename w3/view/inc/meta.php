@@ -1,7 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
     <head>
-        <link rel="icon" href="http://localhost/portfolio/app/vue/img/favicon.ico" />
+        <base href="http://dev.it-nani.net/" />
+        <link rel="icon" href="view/img/favicon.ico" />
         <meta charset="utf-8" /> 
         <title>Isabelle NANI | Web Dev</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
