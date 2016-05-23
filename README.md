@@ -1,7 +1,7 @@
 # w3-portfolio
 
 Responsive, mobil first portfolio web site
-Animate galery
+with Animate galery
 
 Technologies:
 PHP
