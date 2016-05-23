@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
-                <!-- Modernizr -->
+        <!-- Modernizr -->
         <link rel="stylesheet" href="view/css/mz/style.css"> <!-- Modernizr Resource style -->
         <script src="view/js/mz/modernizr.js"></script> <!-- Modernizr -->
         <link rel="stylesheet" href="view/css/styles.css">
